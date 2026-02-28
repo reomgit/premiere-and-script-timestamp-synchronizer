@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-02-26T03:39:52.589Z",
+  "fps": 30,
+  "markers": [
+    {
+      "name": "Hook line for opening visual",
+      "comments": "",
+      "startSeconds": 3.5,
+      "durationSeconds": 0,
+      "markerType": "Comment",
+      "confidence": 1,
+      "source": "strict",
+      "sourceLine": 1,
+      "rawTimestamp": "00:00:03.500"
+    },
+    {
+      "name": "Intro title card",
+      "comments": "",
+      "startSeconds": 12,
+      "durationSeconds": 0,
+      "markerType": "Comment",
+      "confidence": 1,
+      "source": "strict",
+      "sourceLine": 2,
+      "rawTimestamp": "00:00:12"
+    },
+    {
+      "name": "At switch to B-roll of factory line",
+      "comments": "",
+      "startSeconds": 82,
+      "durationSeconds": 0,
+      "markerType": "Comment",
+      "confidence": 1,
+      "source": "strict",
+      "sourceLine": 3,
+      "rawTimestamp": "1m22s"
+    },
+    {
+      "name": "This line is messy but has for shot timing",
+      "comments": "",
+      "startSeconds": 98,
+      "durationSeconds": 0,
+      "markerType": "Comment",
+      "confidence": 0.55,
+      "source": "fuzzy",
+      "sourceLine": 4,
+      "rawTimestamp": "0138"
+    },
+    {
+      "name": "Closing CTA and logo lockup",
+      "comments": "",
+      "startSeconds": 135,
+      "durationSeconds": 0,
+      "markerType": "Comment",
+      "confidence": 1,
+      "source": "strict",
+      "sourceLine": 5,
+      "rawTimestamp": "2:15"
+    }
+  ]
+}

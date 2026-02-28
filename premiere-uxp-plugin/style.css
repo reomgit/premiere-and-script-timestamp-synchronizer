@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #f2f6ff 0%, #fef6ec 100%);
+  color: #14213d;
+}
+
+main {
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.subtitle {
+  margin: 0 0 14px;
+  font-size: 12px;
+  color: #334e68;
+}
+
+.buttons {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #1d3557;
+}
+
+button:hover {
+  background: #243b5a;
+}
+
+#log {
+  min-height: 96px;
+  max-height: 240px;
+  overflow: auto;
+  margin: 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(20, 33, 61, 0.12);
+  border-radius: 8px;
+  font-family: "SF Mono", Menlo, monospace;
+  font-size: 11px;
+}

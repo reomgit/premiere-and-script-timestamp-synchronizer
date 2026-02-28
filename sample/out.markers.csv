@@ -1,0 +1,6 @@
+id,name,startSeconds,durationSeconds,markerType,confidence,source,sourceLine,rawTimestamp
+m0001,Hook line for opening visual,3.5,0,Comment,1,strict,1,00:00:03.500
+m0002,Intro title card,12,0,Comment,1,strict,2,00:00:12
+m0003,At switch to B-roll of factory line,82,0,Comment,1,strict,3,1m22s
+m0004,This line is messy but has for shot timing,98,0,Comment,0.55,fuzzy,4,0138
+m0005,Closing CTA and logo lockup,135,0,Comment,1,strict,5,2:15
