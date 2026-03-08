@@ -76,6 +76,27 @@ node ./src/cli.js inject \
 - `Import JSON into Sequence`
 - `Export Sequence to JSON`
 
+### If UDT shows "No applications are connected to the service"
+
+Do not edit plugin code first. This is usually an app connection issue.
+
+1. Run the preflight checker:
+
+```bash
+npm run premiere:preflight
+```
+
+2. Apply this exact recovery sequence:
+- Close Premiere and UXP Developer Tool.
+- Start Premiere first and wait until it is fully loaded.
+- Start UXP Developer Tool as Administrator.
+- In Premiere, enable developer mode in `Preferences -> Plugins`, then restart Premiere.
+- Confirm Premiere appears as connected in UDT, then load `premiere-uxp-plugin/`.
+
+3. Verify compatibility:
+- `premiere-uxp-plugin/manifest.json` requires `host.minVersion: 25.6.0`.
+- Stable/Beta mismatches can break connection (for example, launching Beta while targeting stable).
+
 ## Marker JSON format
 
 ```json
